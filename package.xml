@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>aws_robomaker_small_house_world</name>
+  <name>robocup_at_home_gazebo</name>
   <version>1.0.0</version>
   <description>
     AWS RoboMaker package for a house world with multiple rooms and furniture for Gazebo simulations.

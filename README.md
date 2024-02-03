@@ -15,7 +15,7 @@
     small_house = launch.actions.IncludeLaunchDescription(
         launch.launch_description_sources.PythonLaunchDescriptionSource(
             os.path.join(
-                get_package_share_directory('aws_robomaker_small_house_world'),
+                get_package_share_directory('robocup_at_home_gazebo'),
                 'launch',
                 'small_house.launch.py')))
 ```
@@ -36,7 +36,7 @@ colcon build
 
 # run in ROS
 source install/setup.sh
-ros2 launch aws_robomaker_small_house_world small_house.launch.py gui:=true
+ros2 launch robocup_at_home_gazebo small_house.launch.py gui:=true
 ```
 
 # Building
